@@ -24,6 +24,8 @@ Para esse projeto usamos o serviço da [CloudAMQP](https://www.cloudamqp.com/) e
 
 Certifique-se de que o RabbitMQ está em execução e configurado corretamente para receber e processar as mensagens de envio de e-mails.
 
+Não se esqueça de mudar no arquivo `.env` a chave para `QUEUE_CONNECTION=rabbitmq`
+
 ## Consumindo Mensagens
 
 Use o comando `php artisan queue:work` para consumir as mensagens.
