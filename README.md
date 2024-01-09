@@ -12,7 +12,7 @@ Esta aplicação é responsável por enviar e-mails utilizando o RabbitMQ como i
 - Composer
 - RabbitMQ (com configurações adequadas)
 
-Para esse projeto usamos o serviço da (CloudAMQP)[https://www.cloudamqp.com/] e da pacote (laravel-queue-rabbitmq)[https://github.com/vyuldashev/laravel-queue-rabbitmq]. Siga o processo de instalação e configuração de ambos.
+Para esse projeto usamos o serviço da [CloudAMQP](https://www.cloudamqp.com/) e da pacote -[laravel-queue-rabbitmq](https://github.com/vyuldashev/laravel-queue-rabbitmq). Siga o processo de instalação e configuração de ambos.
 
 ## Instalação e Uso
 
@@ -26,7 +26,7 @@ Certifique-se de que o RabbitMQ está em execução e configurado corretamente p
 
 ## Consumindo Mensagens
 
-Use o comando 'php artisan queue:work' para consumir as mensagens.
+Use o comando `php artisan queue:work` para consumir as mensagens.
 
 ## Funcionamento
 
